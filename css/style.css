@@ -1,0 +1,79 @@
+#conteudo {
+    background: #ff7a7a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.image{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.heart {
+    margin: 200px;
+    background-color: blue;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
+
+.heart {
+    margin: 200px;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
